@@ -1,6 +1,7 @@
 import Content from './components/content/Content';
 import Header from './components/header/Header';
 import { TodoProvider } from './components/context/TodoContext';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header/>
         <Content/>
       </section>
+      <Footer/>
     </TodoProvider>
   );
 }
